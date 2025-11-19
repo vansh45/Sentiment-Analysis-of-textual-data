@@ -10,7 +10,7 @@ import plotly.express as pex
 # utils
 import joblib
 
-pipe_lr = joblib.load(open("emotion_detection_1.pkl", "rb"))
+pipe_lr = joblib.load(open("emotion_detection.pkl", "rb"))
 
 
 def predict_emotions(doc):
